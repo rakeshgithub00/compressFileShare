@@ -374,7 +374,7 @@ onload = function () {
           }
         };
       
-        xhr.open("POST", "https://compresshare.herokuapp.com//api/files");
+        xhr.open("POST", "https://compresshare.herokuapp.com/api/files");
         xhr.send(formData);
       };
 
